@@ -1,0 +1,10 @@
+[package]
+name = "pre-commit-rust-monorepo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pcrm"
+path = "src/main.rs"
+
+[dependencies]

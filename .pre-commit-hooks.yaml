@@ -1,0 +1,19 @@
+- id: cargo-fmt
+  name: cargo fmt
+  description: Format rust files with cargo fmt
+  entry: pcrm fmt
+  language: rust
+  types: [rust]
+- id: cargo-check
+  name: cargo check
+  description: Run cargo check for compilation errors
+  entry: pcrm check
+  language: rust
+  types: [rust]
+- id: cargo-clippy
+  name: cargo clippy
+  description: Run cargo clippy linter
+  entry: pcrm clippy
+  language: rust
+  types: [rust]
+
